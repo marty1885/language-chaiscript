@@ -1,0 +1,56 @@
+'scopeName': 'source.chaiscript'
+'fileTypes': [
+  'chaiscript'
+  'chai'
+  'ch'
+]
+'name': 'Chaiscript'
+'patterns': [
+  {
+    'match': '\\b(attr|auto|break|def|else|for|fun|if|try|while|var)\\b'
+    'name': 'keyword.chaiscript'
+  }
+  {
+    'match': '\\b((0(x|X)[0-9a-fA-F]*)|(0(b|B)[01]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f|ll|LL|ull|ULL)?\\b'
+    'name': 'constant.numeric.chaiscript'
+  }
+  {
+    'match': '\/\/.*'
+    'name' : 'comment.chaiscript'
+  }
+{
+    'begin': '"'
+    'beginCaptures':
+      '0':
+        'name': 'string.begin.chaiscript'
+    'end': '"'
+    'endCaptures':
+      '0':
+        'name': '.string.end.chaiscript'
+    'name': 'string.quoted.chaiscript'
+    'patterns': [
+      {
+        'include': '#string_escaped_char'
+      }
+      {
+        'include': '#string_placeholder'
+      }
+    ]
+  }
+  {
+    'begin': '\''
+    'beginCaptures':
+      '0':
+        'name': 'string.begin.chaiscript'
+    'end': '\''
+    'endCaptures':
+      '0':
+        'name': 'string.end.chaiscript'
+    'name': 'string.quoted.single.chaiscript'
+    'patterns': [
+      {
+        'include': '#string_escaped_char'
+      }
+    ]
+  }
+]

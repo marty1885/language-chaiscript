@@ -1,0 +1,11 @@
+{
+  "name": "language-chaiscript",
+  "version": "0.0.1",
+  "description": "Language support for chaiscript",
+  "repository": "N/A",
+  "license": "BSD",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {}
+}
