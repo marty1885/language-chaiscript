@@ -2,7 +2,7 @@
   "name": "language-chaiscript",
   "version": "0.0.1",
   "description": "Language support for chaiscript",
-  "repository": "N/A",
+  "repository": "https://github.com/marty1885/language-chaiscript",
   "license": "BSD",
   "engines": {
     "atom": ">0.50.0"
