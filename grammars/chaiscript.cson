@@ -8,7 +8,7 @@
 'name': 'Chaiscript'
 'patterns': [
   {
-    'match': '\\b(true|false|attr|auto|switch|case|default|break|def|if|else|for|fun|try|catch|finally|while|var|GLOBAL|global|class|continue|return|this|__LINE__|__CLASS__|__FUNC__)\\b'
+    'match': '\\b(true|false|attr|auto|switch|case|default|break|def|if|else|for|fun|try|catch|finally|while|do|var|GLOBAL|global|class|continue|return|this|__LINE__|__CLASS__|__FUNC__)\\b'
     'name': 'keyword.chaiscript'
   }
   {
