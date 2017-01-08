@@ -102,7 +102,7 @@
            to_string|foldl|for_each|retro|range|generate_range|join|add_global|
            set_global|from_json|to_json|map|max|min|throw|clone|product|find|
            find_first_of|find_first_not_of|find_last_not_of|find_last_of|rfind|
-           sum|take|take_while|add_type_conversion|type|zip|zip_with
+           sum|take|take_while|add_type_conversion|type|zip|zip_with|bind
           )\\b
         '''
         'name': 'entity.name.function.chaiscript'
