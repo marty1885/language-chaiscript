@@ -1,6 +1,6 @@
 {
   "name": "language-chaiscript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Language support for chaiscript",
   "repository": "https://github.com/marty1885/language-chaiscript",
   "license": "BSD",
